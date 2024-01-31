@@ -1,0 +1,256 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="headlogo.png" type="image/x-icon">
+    <title>Frank's Personal Web Page</title>
+    
+    </head>
+
+    <style type="text/css">
+*{
+  padding: 0%;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+body{
+    width: 100%;
+    height: 100vh;
+    background-image: url(modern.jpg);
+    background-size: cover;
+    color: white;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+main .card{
+    margin-top: 0px;
+    background: rgba( 255, 255, 255, 0.05 );
+    box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+    backdrop-filter: blur( 0.5px );
+    -webkit-backdrop-filter: blur( 0.5px );
+    border-radius: 10px;
+    border: 1px solid rgba( 255, 255, 255, 0.18 );
+    border-radius: 25px;
+    width: 550px;
+    height: 470px;
+    position: relative;
+}
+
+img{
+    border-radius: 50%;
+    height: 150px;
+    width: 150px;
+    position: absolute;
+    top: -80px;
+    left: 50%;
+    transform: translateX(-50%);
+
+
+}
+
+.profileTitle{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin-top: 90px;
+
+    opacity: 0;
+    transform: translateY(-20px);
+    animation: fadeInLefth1 2s ease-out forwards;
+}
+
+@keyframes fadeInLefth1 {
+to {
+    opacity: 1;
+    transform: translateX(0);
+    }
+}
+
+.profileTitle h2 {
+    font-weight: 400;
+    font-size: 28px;
+    margin-top: 15px;
+}
+
+.profileTitle h3 {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-weight: 500;
+    font-size: 20px;
+}
+
+.cardbody{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.cardbody h2 {
+    text-align: center;
+    font-size: 33px;
+    margin-top: 15px;
+    margin-bottom: 10px;
+}
+
+li {
+    margin-bottom: 12px;
+    font-size: 20px;
+
+    opacity: 0;
+    transform: translateY(20px);
+    animation: fadeInLefth1 2s ease-out forwards;
+}
+
+@keyframes fadeInLefth1 {
+to {
+    opacity: 1;
+    transform: translateX(0);
+    }
+}
+
+
+
+.line{
+    margin-top: 30px;  
+    width: 2px;
+    height: 150px;
+    background-color: white;
+
+    opacity: 0;
+    transform: translateY(20px);
+    animation: fadeInLefth1 2s ease-out forwards;
+}
+
+@keyframes fadeInLefth1 {
+to {
+    opacity: 1;
+    transform: translateX(0);
+    }
+}
+
+.hobbies {
+    opacity: 0;
+    transform: translateX(20px);
+    animation: fadeInLefth1 2s ease-out forwards;
+}
+
+@keyframes fadeInLefth1 {
+to {
+    opacity: 1;
+    transform: translateX(0);
+    }
+}
+
+.skills {
+    opacity: 0;
+    transform: translateX(-20px);
+    animation: fadeInLefth1 2s ease-out forwards;
+}
+
+@keyframes fadeInLefth1 {
+to {
+    opacity: 1;
+    transform: translateX(0);
+    }
+}
+
+ footer {
+            text-align: center;
+            padding: 20px;
+            margin-bottom: 20px;
+            position: fixed;
+            bottom: 0;
+            width: 45%;
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+        }
+
+        footer a {
+            text-decoration: none;
+            color: white;
+            font-weight: bold;
+        }
+
+    </style>
+
+    <body>
+
+        
+
+        <main>
+
+
+            <div class="card">
+
+                <img src="frank.jpg" alt="">
+
+                <div class="profileTitle">
+
+                    <h1>Frank Kenneth O. Ferrer</h1>
+                    <h2>IT student</h2>
+                    <h3>I like to live life to its fullest</h3>
+                </div>
+
+
+
+
+
+
+                <div class="cardbody">
+
+                    <div class="skills">  
+
+                        <h2>Skills</h2>
+                        <ul>
+                            <li>Programming</li>
+                            <li>Problem-solving</li>
+                            <li>Adaptability</li>
+                            <li>Teamwork</li>
+                            <li>Computer literate</li>
+                        </ul>
+                    </div>
+
+
+
+                            <div class="line"></div>
+
+
+
+                    <div class="hobbies">
+                        <h2>Hobbies</h2>
+                        <ul>
+                            <li>Coding</li>
+                            <li>Cycling</li>
+                            <li>Reading</li>
+                            <li>Gaming</li>
+                            <li>Listening to Music</li>
+                        </ul>
+                    </div>
+
+
+
+                </div>
+            </div>
+
+             
+
+        </main>
+
+<footer>
+        <a style="background-color: blue; padding: 10px 15px; border-radius: 20px;" href="mainpage.html">Home</a>
+        <a href="#">Facebook</a>
+        <a href="#">Instagram</a>
+        <a href="#">WhatsApp</a>
+        <a href="#">Email</a>
+    </footer>
+
+    </body>
+</html>

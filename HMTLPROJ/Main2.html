@@ -1,0 +1,175 @@
+    <!DOCTYPE html>
+    <html lang="en">
+
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>MAINPAGE</title>
+        <link rel="icon" href="headlogo.png" type="image/x-icon">
+
+        <style type="text/css">
+            * {
+                box-sizing: border-box;
+                font-family: sans-serif;
+                margin: 0;
+                padding: 0;
+            }
+
+            body {
+                background-image: url('m.jpg');
+                background-size: cover;
+                background-attachment: fixed;
+                background-color: black;
+                color: white;
+                margin: 0;
+                padding: 0;
+
+            }
+
+
+            .container {
+
+                display: flex;
+                flex-wrap: wrap;
+                justify-content: center;
+                align-items: center;
+            }
+
+            .person-container {
+                margin: 28px 78px;
+            }
+
+            .container img {
+              box-shadow: 10px 10px 20px 0 rgba(0, 0, 0, 0.5);
+              border-radius: 50%;
+              width: 170px;
+              height: 170px;
+              transition: 0.3s;
+
+              opacity: 0;
+              transform: translateY(-5px);
+              animation: fadeInLefth1 1s ease-out forwards;
+            }
+
+            @keyframes fadeInLefth1 {
+              to {
+                opacity: 1;
+                transform: translateX(0);
+              }
+            }
+
+
+            .container img:hover {
+                width: 175px;
+                height: 175px;
+                transition: 0.3s;
+            }
+
+            .Description {
+                width: 300px;
+                height: 360px;
+                margin: 25px;
+                display: flex;
+
+                opacity: 0;
+                transform: translateY(5px);
+                animation: fadeInLefth1 1s ease-out forwards;
+            }
+
+            @keyframes fadeInLefth1 {
+              to {
+                opacity: 1;
+                transform: translateX(0);
+              }
+            }
+
+
+            .person-description {   
+                background: rgba( 255, 255, 255, 0.1 );
+                box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+                backdrop-filter: blur( 1px );
+                -webkit-backdrop-filter: blur( 1px );
+                border-radius: 30px;
+                border: 1px solid rgba( 255, 255, 255, 0.18 );
+                padding: 15px;
+                flex: 0 0 100%;
+                margin-top: 0;
+                margin: 15px;
+            }
+
+            .person-description h1 {
+                text-transform: uppercase;
+                font-size: 2em;
+                font-weight: bold;
+                color: white; 
+                text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+            }
+
+            .person-description p {
+                line-height: 25px;
+                letter-spacing: 1px;
+                margin-top: 20px;
+                font-size: 18px;
+            }
+
+        </style>
+        
+    </head>
+
+    <body>
+
+        <div class="container">
+
+            <div class="person-container">
+                <a href="kurt.html">
+                    <img src="kurt.jpg" alt="Kurt Image">
+                </a>
+            </div>
+
+            <div class="person-container">
+                <a href="frank.html">
+                    <img src="frank.jpg" alt="Frank Image">
+                </a>
+            </div>
+
+            <div class="person-container">
+                <a href="Kenneth.html">
+                    <img src="Kenneth.jpg" alt="Mark Kenneth Image">
+                </a>
+            </div>
+
+            <div class="person-container">
+                <a href="#">
+                    <img src="Christian.jpg" alt="Christian Image">
+                </a>
+            </div>
+
+        </div>
+
+        <div class="Description">
+            <div class="person-description">
+                <h1>KURT</h1>
+                <p>Hi, I'm Kurt,
+                I am 18 years old, I live in Dagupan city Panggasinan, I love play Basketball and playing online games, I always listen to music when I'm bored. Again, My name is Kurt your future Web Developer.</p>
+            </div>
+
+            <div class="person-description">
+                <h1>FRANK</h1>
+                <p>Hello, I'm Frank Kenneth O. Ferrer, the things you have to know about me are I like you play games either physical sports or online games. My love language is quality time, I'm introverted but not shy. My ambition in life is to be a professor software developer.</p>
+            </div>
+
+            <div class="person-description">
+                <h1>KENNETH</h1>
+                <p>Hello!, I'm Mark Kenneth S. Gambot, I am 18 years old and live in Laoac, Pangasinan. Things to know about me I like to play physical sports and online games. My ambition is to be rich without doing anything If how I'm gonna do it I don't know either.</p>
+            </div>
+
+            <div class="person-description">
+                <h1>CHRISTIAN</h1>
+                <p>Hello I'm Christian, I'm just a simple person, I'm an ambivert person, my hobbies are playing online games, drawing and playing guitar. I am only child. My dream is simple, to finish school, build my dream house and help my parents.</p>
+            </div>
+
+        </div>
+
+    </body>
+
+    </html>

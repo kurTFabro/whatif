@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="icon" href="headlogo.png" type="image/x-icon">
+  <title>Welcome to our Website</title>
+  <style>
+
+  	* {
+  		margin: 0;
+  		padding: 0;
+  	}  
+
+  	body {
+  		background-image: url(m.jpg);
+  		background-size: cover;
+  		background-attachment: fixed;
+  	}
+
+    .container {
+    	display: flex;
+    }
+
+    .left-column {
+    	margin: 20px;
+    }
+
+
+
+    img {
+      /*box-shadow: 0 8px 28px 0 rgba( 31, 38, 135, 0.37 );*/
+    	border-radius: 80px;
+    	margin-top: 20%;
+      margin-left: 20%;
+    	width: 450px;
+    	height: 450px;
+    }
+
+    .right-column {
+		    box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+        backdrop-filter: blur( 1px );
+        -webkit-backdrop-filter: blur( 1px );
+        border-radius: 30px;
+        border: 1px solid rgba( 255, 255, 255, 0.18 );
+
+        padding: 25px;
+        margin-top: 65px;
+        margin-left: 200px;
+        height: 500px;
+        width: 500px;
+
+        opacity: 0;
+        transform: translateY(5px);
+        animation: fadeInLefth1 1s ease-out forwards;
+      }
+
+        @keyframes fadeInLefth1 {
+        to {
+        opacity: 1;
+        transform: translateX(0);
+       }
+      }
+
+    h1{
+      text-align: center;
+    	color: white;
+    }
+
+    p {
+      margin-top: 25px;
+      color: white;
+
+      letter-spacing: 1px;
+      text-align: justify;
+      font-size: 25px;
+    }
+
+
+  </style>
+</head>
+
+<body>
+
+  <div class="container">
+
+    <div class="left-column">
+
+          <a href="mainpage.html"><img src="logonobg.png" alt="Image 1"></a>
+
+    </div>
+
+
+    <div class="right-column">
+
+          <h1>PERSONAL WEBSITE</h1>
+
+          <p>
+
+          Hello there! This is our Personal Website. It contains some basic information about us four. Specifically, our personality, hobbies, and interests.
+
+          The design of our personal Webpage or Website is vibrant, and at the same time, it still has a professional look to it.
+
+          Our personal Website uses simple hover and function using your mouse cursor.
+
+          For example, clicking on our logo directly makes you go to our second page,  which contains basic information about ourselves.
+
+          And by also clicking on our faces, it directly goes to our own personal page, which was made by ourselves individually that it showcases our web development skills, and also contains our hobbies and skills.
+
+          </p>
+
+    </div>
+
+  </div>
+
+</body>
+
+</html>
